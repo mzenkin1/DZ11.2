@@ -1,3 +1,8 @@
 def upper(string):
-    """переводит все буквы в заглавные"""
+    """делает все буквы заглавными"""
     return string.upper()
+
+
+def title(string):
+    """делает заглавными первые буквы каждого слова"""
+    return string.title()
